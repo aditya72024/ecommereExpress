@@ -21,7 +21,7 @@ module.exports = class Cart {
                 updatedProduct = {...existingProduct};
                 updatedProduct.qty += 1;
                 cart.products = [...cart.products];
-                cart.products[existingProductIndex] = updatedProdut;  
+                cart.products[existingProductIndex] = updatedProduct;  
 
             }else{
                 updatedProduct = {id: id, qty:1};
